@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demoday Evaluation Tool - Form</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- Scripts -->
+    <script src="./js/ui_updater.js" defer></script>
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+    <!-- HEADER -->
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                    <img class="me-3" src="./img/logo-holberton.webp" height="30" alt="Holberton logo">
+                    Demoday Evaluation Tool
+                    <span id="campusIndicator" class="ms-1 text-light"></span>
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar -->
+                <div id="navbarNav" class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a id="navHome" class="nav-link" href="./index.html">
+                                <i class="bi bi-house-door-fill me-1"></i>
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="navForm" class="nav-link active disabled" href="./form.html">
+                                <i class="bi bi-ui-radios-grid me-1"></i>
+                                Form
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="navResults" class="nav-link disabled" href="./results.html">
+                                <i class="bi bi-award-fill me-1"></i>
+                                Results
+                            </a>
+                        </li>
+
+                        <li class="nav-item ms-auto ms-lg-5">
+                            <button id="dashboardBtn" class="btn btn-outline-dark" type="button" onclick="location.href='./dashboard.html'">
+                                Dashboard
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container mt-auto mb-auto mb-lg-0">
+        <h2 class="visually-hidden">Form</h2>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-3 mt-lg-auto py-2 text-center bg-body-secondary">
+        &copy; 2025 Holberton School
+    </footer>
+</body>
+
+</html>

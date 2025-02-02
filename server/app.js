@@ -17,7 +17,7 @@ const { v4: uuidv4 } = require('uuid');
 
 // Create the Express application and set the port.
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 // Generate a random 32-byte key and convert it to a hexadecimal string.
 const secretKey = crypto.randomBytes(32).toString('hex');
